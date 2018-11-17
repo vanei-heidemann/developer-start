@@ -82,6 +82,11 @@ echo install npm
 echo ==============================
 apt-get install -y npm
 
+echo install teamviewer
+echo ==============================
+wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
+sudo apt install ./teamviewer_amd64.deb
+
 echo ==============================
 echo Done, restart your machine!
 echo ==============================
