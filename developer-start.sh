@@ -91,11 +91,26 @@ echo "deb [arch=amd64] http://dl.google.com/linux/chrome/deb/ stable main" | tee
 apt update
 apt install -y google-chrome-stable
 
+echo ==============================
 echo install teamviewer
 echo ==============================
 wget https://download.teamviewer.com/download/linux/teamviewer_amd64.deb
-sudo apt install ./teamviewer_amd64.deb
+apt install ./teamviewer_amd64.deb
 
+echo ==============================
+echo install skype
+echo ==============================
+wget https://go.skype.com/skypeforlinux-64.deb
+apt install ./skypeforlinux-64.deb
+
+echo ==============================
+echo Done, restart your machine!
+echo ==============================
+
+echo
+echo ==============================
+echo https://www.omgubuntu.co.uk/2018/04/things-to-do-after-installing-ubuntu-18-04
+echo ==============================
 echo ==============================
 echo Done, restart your machine!
 echo ==============================
